@@ -1,0 +1,206 @@
+*{
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background: teal;
+    position:fixed;
+}
+#ScreenOne{
+    background: blue;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    overflow: hidden;
+    display: block;
+}
+#Screentwo{
+    background: green;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    overflow: hidden;
+    display: none;
+}
+#Screenthree{
+    background: olive;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    overflow: hidden;
+    display: none;
+}
+#Screenfour{
+    background: orange;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    overflow: hidden;
+    display: none;
+}
+header{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background: blue;
+    display: inline-flex;
+}
+footer{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background: blue;
+    display: inline-flex;
+    bottom: 0;
+}
+#Data{
+    position: fixed;
+    width: 100%;
+    top: 50px;
+    bottom: 50px;
+    background: red;
+    display: block;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+#Profile{
+    position: relative;
+    left: 0;
+}
+#Logo{
+    position: absolute;
+    font-size: 30px;
+    right: 0;
+    padding: 10px;
+    font-weight: bolder;
+}
+#Home{
+    position: relative;
+    left: 0;
+}
+#Home1{
+    position: relative;
+    left: 30%;
+}
+#Home2{
+    position: absolute;
+    right: 0;
+    width: 50px;
+}
+p{
+    padding: 10px;
+}
+img{
+    position: relative;
+    width: auto;
+}
+#img{
+    position: relative;
+    width: 100%;
+    top: 10px;
+}
+h1{
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+video{
+    position: relative;
+    width: 100%;
+    top: 0;
+    height: 90%;
+    bottom: 50px;
+    overflow: hidden;
+    background-size: cover;
+}
+#VideoHandler{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 50px;
+    bottom: 0;
+    display: none;
+}
+#back{
+    position: fixed;
+    top: 0;
+    width: 50px;
+    right: 0;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+#back1{
+    position: relative;
+    top: 0;
+    font-size: 30px;
+    left: 0;
+    color: black;
+}
+#UserNameEmail{
+    position: relative;
+    color: white;
+}
+#bet{
+    position: fixed;
+    background: blue;
+    width: 100%;
+    height: 30%;
+    top: 10%;
+    padding: 10px;
+}
+#betting{
+    position: relative;
+    background: green;
+    width: 100%;
+    bottom: 0;
+    top: 40%;
+    height: 100%;
+    padding: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+h2{
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+}
+#btn1,#btn2{
+    left: 10%;
+    position: absolute;
+}
+#odds{
+    right: 20%;
+    position: absolute;
+}
+#ProfileDisplay{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 10%;
+    background: blue;
+    text-align: left;
+}
+#EmailHolder{
+    font-size: 20px;
+}
+#btn3{
+    left: 0;
+    top: 2%;
+    background: black;
+    position: relative;
+}
+#Fixtures{
+    position: absolute;
+    top: 0;
+    text-align: center;
+    right: 0;
+    padding: 10px;
+}
